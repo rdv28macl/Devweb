@@ -7,7 +7,7 @@ const SUPABASE_URL = "https://qbznnsyzkvkacsiepbyc.supabase.co";
 const SUPABASE_KEY = "sb_publishable_JaWRRs_cme4CCnM3hmzXJQ_j6D2BRB4";
 
 //  Client Supabase
-const supabase = createClient(https://qbznnsyzkvkacsiepbyc.supabase.co, sb_publishable_JaWRRs_cme4CCnM3hmzXJQ_j6D2BRB4);
+const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
 
 // Récupération des boutons Il est important de vérifier votre code HTML pour remplacer btnLogin et btnRegister en fonction de leur id
 const BtnLogin = document.getElementById("btnLogin");
