@@ -64,7 +64,7 @@ LoginForm.addEventListener("submit", async (event) => {
     console.log("Connexion réussie", data);
 
     // Redirection vers la page d'accueil
-    window.location.href = "index.html";
+    window.location.href = "../index.html";
 });
 
 //Champs du formulaire d'inscription
